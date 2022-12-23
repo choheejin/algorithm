@@ -7,8 +7,6 @@ paths = list(sys.stdin.readline().split())
 i = 1
 j = 1
 
-print(paths)
-
 for path in paths:
   if(path == 'R'):
     if(j+1 <= n):
