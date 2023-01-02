@@ -1,7 +1,7 @@
 # 그냥 3차원 배열로 생각하고 풀었으면 어떻게든 성공했을거 같은데...
 # 너무 어렵게 접근함 다음부턴 좀 더 단순하게 가자!
-# 내 코드 
 
+# 내 코드 
 
 import sys
 from collections import deque
