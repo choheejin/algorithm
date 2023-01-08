@@ -38,3 +38,18 @@ else:
       total = total + result[i+1]
   
   print(total)
+
+  
+# 더 효율적인 코드...
+# 이렇게 쉽게 가능한 거 였다니 ㅜ
+
+x = input().split("-")
+result = 0
+
+for i in x[0].split("+"):
+    result += int(i)
+for i in x[1:]:
+    for j in i.split("+"):
+        result -= int(j)
+        
+print(result)
